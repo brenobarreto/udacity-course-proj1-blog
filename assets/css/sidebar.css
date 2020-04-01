@@ -6,6 +6,10 @@
     margin-bottom: 50px;
 }
 
+.aboutCard h2 {
+    margin-top: 25px;
+}
+
 .socialLinks ul {
     list-style-type: none;
 }
