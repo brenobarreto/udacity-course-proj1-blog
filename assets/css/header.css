@@ -1,17 +1,18 @@
 .navbar {
     display: flex;
-    justify-content: flex-end;
-    padding-right: 200px;
+    justify-content: center;
 }
 
 .navbar ul {
     display: flex;
     list-style-type: none;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
 }
 
 .navbar li {
-    padding: 20px;
+    padding: 5px;
 }
 
 .navbar li:hover {
@@ -21,4 +22,23 @@
 .navbar a {
     text-decoration: none;
     color: inherit;
+}
+
+/*---------------------*/
+/*--- MEDIA QUERIES ---*/
+/*---------------------*/
+
+@media (min-width: 500px){
+    .navbar{
+        padding-right: 200px;
+        justify-content: flex-end;
+    }
+    
+    .navbar ul {
+        flex-direction: row;
+    }
+
+    .navbar li {
+        padding: 20px;
+    }
 }

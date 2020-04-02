@@ -1,9 +1,11 @@
 .sidebar {
-    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .aboutCard {
-    margin-bottom: 50px;
+    width: 300px;
 }
 
 .aboutCard h2 {
@@ -11,5 +13,35 @@
 }
 
 .socialLinks ul {
+    display: flex;
     list-style-type: none;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+/*---------------------*/
+/*--- MEDIA QUERIES ---*/
+/*---------------------*/
+
+@media (min-width: 730px){
+    .aboutCard {
+        width: 550px;
+    }
+}
+
+@media (min-width: 1240px){
+    .sidebar {
+        padding-right: 15px;
+    }
+
+    .aboutCard {
+        margin-bottom: 50px;
+        width: auto;
+    }
+
+    .socialLinks ul {
+        display: flex;
+        flex-direction: column;
+    }
 }
