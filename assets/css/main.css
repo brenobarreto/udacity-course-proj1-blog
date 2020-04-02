@@ -78,12 +78,19 @@ body {
 
 button {
     cursor: pointer;
+    background-color: #004A64;
+    border-radius: 7px;
+    color: white;
+    padding: 10px;
+    border: 0;
 }
 
-img {
+.imgContainer img {
     width: 450px;
     height: 200px;
     object-fit: cover;
+    border-radius: 10px;
+    
 }
 
 /*--- SOCIAL LINKS ---*/
