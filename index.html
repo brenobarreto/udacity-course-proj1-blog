@@ -1,6 +1,6 @@
 <!doctype html>
 
-<html>
+<html lang="es-US">
   <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
@@ -19,7 +19,7 @@
       </ul>
     </nav>
 
-    <div class="sidebar">
+    <section class="sidebar">
       <div class="aboutCard">
         <h2>About</h2>
         <p>
@@ -36,9 +36,9 @@
           <li><a href="https://github.com/brenobarreto" target="_blank"><img src="./assets/img/github_icon.png" alt="Github Icon"></a></li>
         </ul>
       </div>
-    </div>
+    </section>
 
-    <div class="mainContent">
+    <section class="mainContent">
       <div class="mainHeader">
         <h1>This is Breno</h1>
       </div>
@@ -47,11 +47,13 @@
 
         <div class="card card1">
           <div class="cardText">
-            <em><p class="cardTag">Analytics</p></em>
+            <p class="cardTag"><em>Analytics</em></p>
             <a href="./posts/what-predictive-analytics-can-do-for-communication.html">
               <h3>What predictive analytics can do for communication</h3>
-              <button class="cardButton">Read it →</button>
             </a>
+            <form action="./posts/what-predictive-analytics-can-do-for-communication.html">
+              <input class="cardButton" type="submit" value="Read it →">
+            </form>            
           </div>
           <div class="imgContainer">
             <a href="./posts/what-predictive-analytics-can-do-for-communication.html">
@@ -62,11 +64,11 @@
 
         <div class="card card2">
           <div class="cardText">
-            <em><p class="cardTag">World View</p></em>
+            <p class="cardTag"><em>World View</em></p>
             <h3>Being optimistic makes you fight harder</h3>
-            <a href="#">
-              <button class="cardButton">Read it →</button>
-            </a>
+            <form action="#">
+              <input class="cardButton" type="submit" value="Read it →">
+            </form>
           </div>
           <div class="imgContainer">
             <img src="./assets/img/compass.jpg" alt="Compass" class="cardImg">
@@ -75,7 +77,7 @@
     
       </div>
     
-    </div>
+    </section>
 
     <footer class="footer">
       <p>© Breno Barreto  |  2020</p>

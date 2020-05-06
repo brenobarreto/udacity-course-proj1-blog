@@ -79,7 +79,7 @@ body {
   color: grey;
 }
 
-button {
+.cardButton {
   cursor: pointer;
   background-color: #004a64;
   border-radius: 7px;
